@@ -4,7 +4,7 @@
 #
 Name     : R-colorspace
 Version  : 1.2
-Release  : 16
+Release  : 17
 URL      : http://cran.r-project.org/src/contrib/colorspace_1.2-4.tar.gz
 Source0  : http://cran.r-project.org/src/contrib/colorspace_1.2-4.tar.gz
 Summary  : No detailed summary available
