@@ -4,7 +4,7 @@
 #
 Name     : R-colorspace
 Version  : 1.3.2
-Release  : 36
+Release  : 37
 URL      : http://cran.r-project.org/src/contrib/colorspace_1.3-2.tar.gz
 Source0  : http://cran.r-project.org/src/contrib/colorspace_1.3-2.tar.gz
 Summary  : Color Space Manipulation
@@ -17,7 +17,11 @@ BuildRequires : clr-R-helpers
 BuildRequires : tcl
 
 %description
-No detailed description available
+RGB, HSV, HLS, CIEXYZ, CIELUV, HCL (polar CIELUV),
+	     CIELAB and polar CIELAB. Qualitative, sequential, and
+	     diverging color palettes based on HCL colors are provided
+	     along with an interactive palette picker (with either a Tcl/Tk
+	     or a shiny GUI).
 
 %package lib
 Summary: lib components for the R-colorspace package.
@@ -35,11 +39,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1496604895
+export SOURCE_DATE_EPOCH=1502397766
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1496604895
+export SOURCE_DATE_EPOCH=1502397766
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
