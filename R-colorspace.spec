@@ -4,7 +4,7 @@
 #
 Name     : R-colorspace
 Version  : 1.3.2
-Release  : 43
+Release  : 44
 URL      : http://cran.r-project.org/src/contrib/colorspace_1.3-2.tar.gz
 Source0  : http://cran.r-project.org/src/contrib/colorspace_1.3-2.tar.gz
 Summary  : Color Space Manipulation
