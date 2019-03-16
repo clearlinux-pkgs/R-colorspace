@@ -4,7 +4,7 @@
 #
 Name     : R-colorspace
 Version  : 1.4.0
-Release  : 59
+Release  : 60
 URL      : https://cran.r-project.org/src/contrib/colorspace_1.4-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/colorspace_1.4-0.tar.gz
 Summary  : A Toolbox for Manipulating and Assessing Colors and Palettes
