@@ -4,16 +4,17 @@
 #
 Name     : R-colorspace
 Version  : 1.4.1
-Release  : 64
+Release  : 65
 URL      : https://cran.r-project.org/src/contrib/colorspace_1.4-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/colorspace_1.4-1.tar.gz
 Summary  : A Toolbox for Manipulating and Assessing Colors and Palettes
 Group    : Development/Tools
 License  : BSD-3-Clause
 Requires: R-colorspace-lib = %{version}-%{release}
-Requires: R-ggplot2
 BuildRequires : R-dichromat
 BuildRequires : R-ggplot2
+BuildRequires : R-markdown
+BuildRequires : R-mime
 BuildRequires : R-mvtnorm
 BuildRequires : buildreq-R
 BuildRequires : tcl
@@ -44,10 +45,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552946433
+export SOURCE_DATE_EPOCH=1556467393
 
 %install
-export SOURCE_DATE_EPOCH=1552946433
+export SOURCE_DATE_EPOCH=1556467393
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -83,7 +84,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export _R_CHECK_FORCE_SUGGESTS_=false
-R CMD check --no-manual --no-examples --no-codoc  colorspace || :
+R CMD check --no-manual --no-examples --no-codoc colorspace || :
 
 
 %files
@@ -266,4 +267,3 @@ R CMD check --no-manual --no-examples --no-codoc  colorspace || :
 %defattr(-,root,root,-)
 /usr/lib64/R/library/colorspace/libs/colorspace.so
 /usr/lib64/R/library/colorspace/libs/colorspace.so.avx2
-/usr/lib64/R/library/colorspace/libs/colorspace.so.avx512
