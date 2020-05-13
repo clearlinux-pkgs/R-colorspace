@@ -1,11 +1,12 @@
 # This file contains recursive sources that require this package
-R-BradleyTerry2
 R-DEoptim
 R-NMF
 R-RcmdrMisc
 R-SGP
 R-VIM
 R-circlize
+R-coin
+R-eRm
 R-effects
 R-forecast
 R-geiger
