@@ -1,5 +1,4 @@
 # This file contains recursive sources that require this package
-R-DEoptim
 R-NMF
 R-RcmdrMisc
 R-SGP
