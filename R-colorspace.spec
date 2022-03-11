@@ -4,7 +4,7 @@
 #
 Name     : R-colorspace
 Version  : 2.0.3
-Release  : 92
+Release  : 93
 URL      : https://cran.r-project.org/src/contrib/colorspace_2.0-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/colorspace_2.0-3.tar.gz
 Summary  : A Toolbox for Manipulating and Assessing Colors and Palettes
