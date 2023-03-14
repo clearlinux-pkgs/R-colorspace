@@ -1,4 +1,5 @@
 # This file contains recursive sources that require this package
+R-Hmisc
 R-NMF
 R-RcmdrMisc
 R-SGP
@@ -11,5 +12,6 @@ R-geiger
 R-munsell
 R-prefmod
 R-rainbow
+R-rms
 R-seriation
 R-vcd
