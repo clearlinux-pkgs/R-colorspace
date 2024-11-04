@@ -7,7 +7,7 @@
 #
 Name     : R-colorspace
 Version  : 2.1.1
-Release  : 105
+Release  : 106
 URL      : https://cran.r-project.org/src/contrib/colorspace_2.1-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/colorspace_2.1-1.tar.gz
 Summary  : A Toolbox for Manipulating and Assessing Colors and Palettes
